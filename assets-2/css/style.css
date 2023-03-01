@@ -64,6 +64,18 @@ h1{
     margin-top: 50px;
     font-size: 3em;
 }
+h3{
+    text-align: center;
+    font-weight: bolder;
+    color: #732104;
+    font-size: 1.5em;
+}
+.containar_1_section p{
+    text-align: center;
+    font-weight: bolder;
+    color: #732104;
+    font-size: 1.2em;
+}
 section{
     width: 80%;
     border-radius: 50px;
@@ -74,16 +86,20 @@ section{
     margin:30px auto;
     height: 500px;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column-reverse;
 }
 .containar_1_section{
     width: 90%;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
 }
-.containar_1_section img{
-    max-width: 100%;
+.containar_2_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
 
 
 /* non sono risuscito a finire l'esercitazione per via della lungezza e per problemi con il codice cercherò di recuperare durante il fine settimana  */
